@@ -15,6 +15,10 @@ public class AppTest
     @Test
     public void shouldAnswerWithTrue()
     {
-        assertTrue( true );
+    	//changed. jenkins build fail.
+    	assertTrue( false );
+    	
+    	//original. jenkins build successfully.
+        //assertTrue( true );
     }
 }
